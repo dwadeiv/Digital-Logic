@@ -1,0 +1,3 @@
+VCD info: dumpfile out.vcd opened for output.
+                   0<< Starting Simulation >>
+                 300<< Simulation Complete >>

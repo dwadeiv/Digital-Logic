@@ -1,0 +1,111 @@
+$date
+	Wed Nov  6 23:04:56 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module tb $end
+$var wire 1 ! latch_out $end
+$var wire 10 " BCD_value [9:0] $end
+$var reg 1 # clock $end
+$var reg 1 $ reset_n $end
+$scope module DUT $end
+$var wire 1 # ADC_CLK_10 $end
+$var wire 2 % KEY [1:0] $end
+$var wire 4 & tens_data [3:0] $end
+$var wire 4 ' ones_data [3:0] $end
+$var wire 7 ( doy_binary_value [6:0] $end
+$var wire 1 ) clk $end
+$var wire 2 * LEDR [1:0] $end
+$var wire 8 + HEX5 [7:0] $end
+$var wire 8 , HEX4 [7:0] $end
+$var wire 8 - HEX2 [7:0] $end
+$var wire 8 . HEX1 [7:0] $end
+$var wire 8 / HEX0 [7:0] $end
+$var wire 10 0 BCD_value [9:0] $end
+$var reg 5 1 dom [4:0] $end
+$var reg 5 2 dom_ones [4:0] $end
+$var reg 5 3 dom_tens [4:0] $end
+$var reg 1 ! latch_out $end
+$var reg 5 4 month_value [4:0] $end
+$scope module c $end
+$var wire 1 # clk $end
+$var wire 1 ! reset_n $end
+$var reg 24 5 divider_1 [23:0] $end
+$var reg 24 6 divider_2 [23:0] $end
+$var reg 1 ) slw_clk_1 $end
+$var reg 1 7 slw_clk_2 $end
+$upscope $end
+$scope module cnt $end
+$var wire 1 ) clk $end
+$var wire 1 ! reset_n $end
+$var reg 4 8 ones [3:0] $end
+$var reg 4 9 tens [3:0] $end
+$upscope $end
+$scope module h0 $end
+$var wire 5 : num [4:0] $end
+$var reg 8 ; out [7:0] $end
+$upscope $end
+$scope module h1 $end
+$var wire 5 < num [4:0] $end
+$var reg 8 = out [7:0] $end
+$upscope $end
+$scope module h2 $end
+$var wire 5 > num [4:0] $end
+$var reg 8 ? out [7:0] $end
+$upscope $end
+$scope module h4 $end
+$var wire 5 @ num [4:0] $end
+$var reg 8 A out [7:0] $end
+$upscope $end
+$scope module h5 $end
+$var wire 5 B num [4:0] $end
+$var reg 8 C out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111111 C
+b11111 B
+b11111001 A
+b1 @
+b11111001 ?
+b1 >
+b11111111 =
+b11111 <
+b11111001 ;
+b1 :
+b0 9
+b1 8
+x7
+b0 6
+b0 5
+b1 4
+b11111 3
+b1 2
+b1 1
+b1111100001 0
+b11111001 /
+b11111111 .
+b11111001 -
+b11111001 ,
+b11111111 +
+bxz *
+x)
+b1 (
+b1 '
+b0 &
+bz %
+0$
+0#
+b1111100001 "
+0!
+$end
+#500
+1$
+#3000
